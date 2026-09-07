@@ -14,7 +14,7 @@ const loginPage: LoginPage = new LoginPage();
 const pimPage: PIMPage = new PIMPage();
 
 test("Verify that an employee can be added successfully", async (page) => {
-
+console.log("Login started");
     // call the Login page
  console.log("delete emp");
 

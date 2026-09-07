@@ -1,13 +1,10 @@
 {
   "name": "playwright_hmsproject_11am",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "commonjs",
+  "scripts": {
+    "test": "cucumber-js"
+  },
   "devDependencies": {
     "@playwright/test": "^1.62.0",
     "@types/node": "^25.9.5",

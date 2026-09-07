@@ -34,7 +34,7 @@ Given("log in to the application", async function () {
 
 
 // Verify Welcome Message
-Then("verify Welcome selenium", async  () => {
+Then("verify Welcome Revathi", async  () => {
 
     const welcomeText = await CommonUtils.getElementText(
         loginPage.getWelcomePage()
@@ -42,7 +42,7 @@ Then("verify Welcome selenium", async  () => {
 
     await AssertUtil.assertEquals(
         welcomeText,
-        "Welcome selenium"
+        "Welcome Revathi"
     );
 
 });
