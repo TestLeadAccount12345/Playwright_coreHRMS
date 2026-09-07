@@ -15,6 +15,7 @@ const pimPage: PIMPage = new PIMPage();
 
 test("Verify that an employee can be added successfully", async (page) => {
 console.log("Login started");
+console.log("Update login based on PR comments");
     // call the Login page
  console.log("delete emp");
 
